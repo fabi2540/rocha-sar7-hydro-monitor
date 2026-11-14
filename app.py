@@ -104,7 +104,7 @@ left_col, right_col = st.columns([1.05, 1.35])
 
 with left_col:
     st.subheader("📍 Rocha Hydro-Climatic Transect")
-    m = folium.Map(location=[-34.25, -54.08], zoom_start=9, tiles="CartoDB positron")
+    m = folium.Map(location=[-34.25, -54.08], zoom_start=9, tiles="OpenStreetMap")
     
     nodes_geo = [
         {"key": "India Muerta", "name": "Node 1: India Muerta Wetlands", "coords": [-33.9667, -54.0333], "desc": "Verified May 2026: -9.85 dB | Dynamic Wetland"},
